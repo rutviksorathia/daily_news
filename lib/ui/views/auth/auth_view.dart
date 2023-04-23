@@ -13,7 +13,8 @@ class AuthView extends StatelessWidget {
       builder: (context, model, child) {
         return Container(
           color: Colors.white,
-          child: Column(
+          child: Flex(
+            direction: Axis.vertical,
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 40, left: 10, right: 10),
