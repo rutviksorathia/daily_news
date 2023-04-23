@@ -17,7 +17,8 @@ class AuthView extends StatelessWidget {
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 40, left: 10, right: 10),
-                child: Column(
+                child: Flex(
+                  direction: Axis.vertical,
                   children: [
                     TextField(
                       decoration: const InputDecoration(
