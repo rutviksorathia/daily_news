@@ -23,7 +23,7 @@ class AuthView extends StatelessWidget {
                   children: [
                     TextField(
                       decoration: const InputDecoration(
-                        labelText: 'Enter the',
+                        labelText: 'Enter the text',
                       ),
                       controller: model.emailController,
                     ),
